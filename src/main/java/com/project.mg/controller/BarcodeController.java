@@ -74,6 +74,7 @@ public class BarcodeController {
     @RequestMapping(value = {"/decode"}, method = RequestMethod.GET)
     public String decode() throws IOException {
         return "decode";
+
     }
 
     @RequestMapping(value = {"/decode"}, produces = "application/json;charset=utf-8", method = RequestMethod.POST)
