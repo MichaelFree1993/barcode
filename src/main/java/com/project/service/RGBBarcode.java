@@ -1,23 +1,20 @@
-package com.cmb.service;
+package com.project.service;
 
-import com.cmb.barcode.decode.BodyDecode;
-import com.cmb.barcode.decode.BodyDecode2;
-import com.cmb.barcode.decode.BodyDecodeBase;
-import com.cmb.barcode.decode.HeaderDecode;
-import com.cmb.barcode.encode.BodyEncode;
-import com.cmb.barcode.encode.BodyEncode2;
-import com.cmb.barcode.encode.HeaderEncode;
-import com.cmb.util.Const;
-import com.cmb.util.StringUtil;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.project.barcode.decode.BodyDecode;
+import com.project.barcode.decode.BodyDecode2;
+import com.project.barcode.decode.BodyDecodeBase;
+import com.project.barcode.decode.HeaderDecode;
+import com.project.barcode.encode.BodyEncode;
+import com.project.barcode.encode.BodyEncode2;
+import com.project.barcode.encode.HeaderEncode;
+import com.project.util.Const;
+import com.project.util.StringUtil;
 import org.springframework.stereotype.Service;
 
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 /**
  * Created by hasee on 2017/8/15.

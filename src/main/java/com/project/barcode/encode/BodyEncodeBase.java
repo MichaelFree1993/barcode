@@ -1,9 +1,8 @@
-package com.cmb.barcode.encode;
+package com.project.barcode.encode;
 
-import com.cmb.util.Const;
+import com.project.util.Const;
 import org.springframework.stereotype.Repository;
 
-import java.text.MessageFormat;
 import java.util.List;
 
 /**

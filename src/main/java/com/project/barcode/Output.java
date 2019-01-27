@@ -1,14 +1,13 @@
-package com.cmb.barcode;
+package com.project.barcode;
 
 import javax.imageio.ImageIO;
-import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.List;
 
-import com.cmb.util.Base64;
+import com.project.util.Base64;
 
 /**
  * Created by hasee on 2017/8/16.

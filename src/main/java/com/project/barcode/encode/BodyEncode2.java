@@ -1,6 +1,5 @@
-package com.cmb.barcode.encode;
+package com.project.barcode.encode;
 
-import com.cmb.barcode.encode.BodyEncodeBase;
 import org.springframework.stereotype.Repository;
 
 import java.io.IOException;

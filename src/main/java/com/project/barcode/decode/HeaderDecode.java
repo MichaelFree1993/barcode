@@ -1,7 +1,7 @@
-package com.cmb.barcode.decode;
+package com.project.barcode.decode;
 
-import com.cmb.barcode.Common;
-import com.cmb.util.Const;
+import com.project.barcode.Common;
+import com.project.util.Const;
 import org.springframework.stereotype.Repository;
 
 import java.awt.image.BufferedImage;

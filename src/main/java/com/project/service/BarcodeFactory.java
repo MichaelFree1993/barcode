@@ -1,4 +1,4 @@
-package com.cmb.service;
+package com.project.service;
 
 /**
  * Created by hasee on 2017/8/17.

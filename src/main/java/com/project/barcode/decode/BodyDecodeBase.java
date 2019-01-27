@@ -1,16 +1,13 @@
-package com.cmb.barcode.decode;
+package com.project.barcode.decode;
 
-import com.cmb.util.CheckCode;
-import org.springframework.stereotype.Component;
+import com.project.util.CheckCode;
+import com.project.barcode.Common;
 import org.springframework.stereotype.Repository;
 
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-
-import static com.cmb.barcode.Common.getValueByIndex;
-import static com.cmb.barcode.Common.whichRgb;
 
 /**
  * Created by hasee on 2017/8/16.
@@ -52,7 +49,7 @@ public class BodyDecodeBase {
     public static List bodyDecodeToArray(BufferedImage image, int indexJ, int start, int imgWidth, int r, int g, int b) throws IOException {
         List<Integer> imgContents = new ArrayList<Integer>();
         for (int i = 0; i < imgWidth * 3 - start; i++) {
-            imgContents.add(getValueByIndex(image, start + i, indexJ) - whichRgb(start + i, r - 5, g - 5, b - 5));
+            imgContents.add(Common.getValueByIndex(image, start + i, indexJ) - Common.whichRgb(start + i, r - 5, g - 5, b - 5));
         }
         return imgContents;
     }

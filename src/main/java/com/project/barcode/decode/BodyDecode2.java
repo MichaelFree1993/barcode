@@ -1,7 +1,6 @@
-package com.cmb.barcode.decode;
+package com.project.barcode.decode;
 
-import com.cmb.util.Const;
-import org.springframework.stereotype.Component;
+import com.project.util.Const;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;

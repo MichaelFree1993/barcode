@@ -1,4 +1,4 @@
-package com.cmb.util;
+package com.project.util;
 
 /**
  * Created by MaGao on 2017/8/2.
@@ -36,8 +36,9 @@ public class CheckCode {
                 if((crci&1)!=0){
                     crci >>=1;
                     crci ^= 0xB8;
+                } else{
+                    crci >>=1;
                 }
-                else crci >>=1;
             }
         }
         return crci < 0 ? crci + 256 : crci;
@@ -62,8 +63,9 @@ public class CheckCode {
                 if((crc&0x01)!=0){
                     crc >>= 1;
                     crc ^=0xE0;
-                }else
+                }else {
                     crc >>= 1;
+                }
             }
         }
         String c = Integer.toString(crc);

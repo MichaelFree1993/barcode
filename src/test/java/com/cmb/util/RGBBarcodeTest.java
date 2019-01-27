@@ -1,14 +1,9 @@
 package com.cmb.util;
 
-import com.cmb.barcode.Output;
-import com.cmb.service.RGBBarcode;
+import com.project.barcode.Output;
+import com.project.service.RGBBarcode;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import javax.annotation.Resource;
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

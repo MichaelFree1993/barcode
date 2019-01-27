@@ -1,14 +1,12 @@
-package com.cmb.controller;
+package com.project.controller;
 
 import com.alibaba.fastjson.JSON;
-import com.cmb.barcode.Output;
-import com.cmb.service.RGBBarcode;
-import com.cmb.util.Const;
+import com.project.barcode.Output;
+import com.project.service.RGBBarcode;
+import com.project.util.Const;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;

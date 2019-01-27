@@ -1,14 +1,11 @@
 package com.cmb.util;
 
+import com.project.util.Base64;
 import org.junit.Test;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
-import java.io.FileOutputStream;
-import java.io.OutputStream;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by hasee on 2017/8/16.

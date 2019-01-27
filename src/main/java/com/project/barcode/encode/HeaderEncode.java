@@ -1,7 +1,7 @@
-package com.cmb.barcode.encode;
+package com.project.barcode.encode;
 
-import com.cmb.util.CheckCode;
-import com.cmb.util.Const;
+import com.project.util.CheckCode;
+import com.project.util.Const;
 import org.springframework.stereotype.Repository;
 
 import java.io.IOException;
